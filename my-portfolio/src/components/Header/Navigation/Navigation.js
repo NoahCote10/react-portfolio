@@ -1,22 +1,26 @@
-import Contact from "../../Pages/Contact"
-import Home from "../../Pages/Home"
-import Portfolio from "../../Pages/Portfolio"
-import Resume from "../../Pages/Resume"
 
-const Navigation = () => {
-    return (
-   <>
-   <Contact />
-   
-   <Home />
-   
-   <Portfolio />
+import { Nav } from "react-bootstrap";
 
-   <Resume />
-   
-   </>
-    
-    );
-  };
-  
-  export default Navigation;
+const Navigation = ({ currentPage, handlePageChange }) => {
+  const links = [
+    { name: "Home", href: "#home" },
+    { name: "Portfolio", href: "#portfolio" },
+    { name: "Resume", href: "#resume" },
+    { name: "Contact", href: "#contact" },
+  ];
+  return (
+    <Nav variant="tabs" activeKey={currentPage} onSelect={handlePageChange}>
+      {links.map((link) => (
+        <Nav.Item key={link.name}>
+          <Nav.Link eventKey={link.name} href={link.href}>
+            {link.name}
+          </Nav.Link>
+        </Nav.Item>
+      ))}
+    </Nav>
+
+  );
+
+};
+
+export default Navigation;

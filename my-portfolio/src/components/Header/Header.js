@@ -1,9 +1,18 @@
 import { Container, Navbar } from "react-bootstrap";
-import Navigation from "./Navigation"
+
+
+
+
 const Header = () => {
   return (
   
-  <Navigation />
+    <Navbar className="justify-content-center header">
+    <Container>
+      <Navbar.Brand>
+        <h1>Welcome!</h1>
+      </Navbar.Brand>
+    </Container>
+  </Navbar>
   
   );
 };
