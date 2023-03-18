@@ -12,7 +12,7 @@
 ## Description <a name="description"></a>
 This project was a rebuild of my web development portfolio. Contrasting the HTML and CSS of the original page, this version is built using React. 
 ## Installation <a name="installation"></a>
-You can clone this repo, install dependencies, then run it, or you can view this page [here].
+You can clone this repo, install dependencies, then run it, or you can view this page [here](https://noahcote10.github.io/react-portfolio/).
 ## License <a name="license"></a>
 For more information about this license click [here](https://choosealicense.com/licenses/mit/). 
 ## Usage <a name="usage"></a>
