@@ -24,14 +24,14 @@ const ProjectCard = ({ title, image, repoLink, liveLink, description}) => {
 const Projects = () => {
   return (
     <div className="cards">
-      <div className="bg-dark text-white py-4">
+      <div className="portfolio-title py-4">
         <Container>
           <Row className="justify-content-center">
             <h1 className="text-center">Portfolio</h1>
           </Row>
         </Container>
       </div>
-      <div className="d-flex justify-content-center mt-1">
+      <div className="d-flex justify-content-center mt-1 portfolio">
         <Container>
           <Row className="justify-content-center">
             {projects.map((projects, index) => (

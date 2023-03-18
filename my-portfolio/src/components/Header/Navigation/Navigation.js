@@ -9,7 +9,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
     { name: "Contact", href: "#contact" },
   ];
   return (
-    <Nav variant="tabs" activeKey={currentPage} onSelect={handlePageChange}>
+    <Nav className="navigation" variant="tabs" activeKey={currentPage} onSelect={handlePageChange}>
       {links.map((link) => (
         <Nav.Item key={link.name}>
           <Nav.Link eventKey={link.name} href={link.href}>

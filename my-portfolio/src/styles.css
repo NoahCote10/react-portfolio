@@ -1,0 +1,78 @@
+body {
+  background-color: #3e4c5e;
+  color: #FFECD1;
+  padding-bottom: 80px;
+}
+
+.cardBody {
+  background-color: #3E4C5E;
+  color: #FFECD1;
+  font-weight: bold;
+}
+
+.cardTitle {
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.contact {
+  color: #FFECD1;
+  font-weight: bolder;
+}
+
+.contactBody {
+  background: #3E4C5E;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 30%;
+  height: auto;
+  border-radius: 4%;
+  margin: auto;
+}
+
+.welcome {
+  border: #3E4C5E;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bio {
+  border: 2px solid #FFECD1;
+  padding: 20px;
+}
+.image-card {
+  border: 5px solid #FFECD1;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+}
+
+.portfolio {
+  padding-bottom: 50px;
+}
+
+.portfolio-title {
+  background-color: #3E4C5E;
+  color: #FFECD1;
+}
+
+.header {
+  background-color: #c4695e;
+}
+
+.navigation {
+  background-color: #3e4c5e;
+}
+

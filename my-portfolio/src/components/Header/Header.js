@@ -9,7 +9,7 @@ const Header = () => {
     <Navbar className="justify-content-center header">
     <Container>
       <Navbar.Brand>
-        <h1>Welcome!</h1>
+        <h1>Noah Cote: Coding Prospect</h1>
       </Navbar.Brand>
     </Container>
   </Navbar>
