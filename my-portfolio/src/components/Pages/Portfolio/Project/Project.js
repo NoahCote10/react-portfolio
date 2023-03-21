@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "BuySomeGames",
-    image: "./images/BuySomeGamesPreview",
+    image: "./images/BuySomeGamesPreview.jpg",
     repoLink: "https://github.com/NoahCote10/buy_some_games",
     liveLink: "https://calm-peak-12756.herokuapp.com/",
     description:
