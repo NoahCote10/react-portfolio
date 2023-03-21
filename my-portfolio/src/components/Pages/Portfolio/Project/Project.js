@@ -47,6 +47,14 @@ const projects = [
     description:
       "Create notes and to-dos that will save for you to reference later.",
   },
+  {
+    title: "BuySomeGames",
+    image: "./images/BuySomeGamesPreview",
+    repoLink: "https://github.com/NoahCote10/buy_some_games",
+    liveLink: "https://calm-peak-12756.herokuapp.com/",
+    description:
+      "Site to buy and sell old or used games. Created with React, MongoDB, and GraphQL",
+  }
 ];
 
 export default projects;
